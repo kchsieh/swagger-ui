@@ -58,7 +58,7 @@
         font-size: 12px;
         font-weight: 300 !important;
 
-        margin: 0;
+        margin: 10px;
 
         @include text_code();
     }
@@ -67,7 +67,7 @@
     {
         font-size: 36px;
 
-        margin: 0;
+        margin: 10px;
 
         @include text_body();
 
@@ -91,8 +91,7 @@
             pre
             {
                 margin: 0;
-
-                @include text_headline($info-title-small-pre-font-color);
+                padding: 0;
             }
         }
     }
